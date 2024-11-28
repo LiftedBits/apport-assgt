@@ -1,0 +1,11 @@
+select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 1em;
+    background: #f8f8f8;
+    pointer-events: none;
+    border-left: 1px solid #ccc;
+}
